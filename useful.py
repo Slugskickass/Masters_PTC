@@ -17,7 +17,7 @@ def loadtiffs(file_name):
 def get_file_list(dir):
     file_list = []
     for file in os.listdir(dir):
-        if file.endswith(".tiff"):
+        if file.endswith(".tif"):
             file_name = dir + '/' +file
             file_list.append(file_name)
     return file_list
